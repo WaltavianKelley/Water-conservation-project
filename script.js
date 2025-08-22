@@ -1,0 +1,1 @@
+setProperty ("waterAppHeader", "color", "red");
