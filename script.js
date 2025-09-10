@@ -21,8 +21,8 @@ const translations = {
 
 
 /**
- * Updates the text content of elements on the page based on the selected language.
- @param {string} language - The language code to use (e.g., 'en' or 'es').
+ *
+ @param {string} language
  */
 function updateText(language) {
   const header = document.getElementById('waterAppHeader');

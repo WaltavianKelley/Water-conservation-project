@@ -1,5 +1,19 @@
 
 
+const allCleanButton = document.getElementById("allCleanButton")
+
+allCleanButton.addEventListener("click", function(){
+
+  console.log("All Clean cliked")
+
+  setText("duck-bath-txt", "Ducks All clean!" )
+
+  setProperty("duck-bath-txt","color", "purple", )
+
+});
+
+
+
 const btnNxt3 = document.getElementById("btnNxt3")
 
 btnNxt3.addEventListener("click", function(){
